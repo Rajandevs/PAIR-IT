@@ -11,15 +11,15 @@ Pair it also has a reset button which resets the game and let you start from the
 ![alt text](image.png)
 
 ---
-<!-- 
+
 ## Theme
-Run Bro is a Endless theme game.
+Pair It is a Offline theme game.
 
-The game never reaches its end unless the user gets bumped into a obstacles.
+Any user can download the source code from github and play the game offline on his/her device.
 
-Therefore a user can make endless score in the game by constantly avoiding the obstacles
+User can download and view the source code from https://github.com/Rajandevs
 
---- -->
+---
 
 ## Features
 
