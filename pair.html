@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAIR IT</title>
+    <link rel="stylesheet" href="pair.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="pair_it">Pair It</div>
+        <div class="author">
+            <div>Author : Rajan Kandel</div>
+            <a href="https://github.com/Rajandevs/">Click to Visit my GitHub</a>
+        </div>
+    </div>
+    <div class="body">
+        <div class="diff_selector">
+            <div class="sel_diff">
+                Select difficulty
+            </div>
+            <div class="diffs">
+                <div class="easy" onclick="diff_selector('easy')">Easy</div>
+                <div class="normal" onclick="diff_selector('normal')">Normal</div>
+                <div class="hard" onclick="diff_selector('hard')">Hard</div>
+            </div>
+        </div>
+        <div class="game"></div>
+        <div class="blank"></div>
+        <div class="resets">
+            <div class="game_reset re" onclick="window.location.reload()">Reset Game</div>
+            <div class="time_reset re" onclick="reset_time()">Reset Time</div>
+        </div>
+    </div>
+    <div class="time"></div>
+    <div class="start" onclick="start()">Start Game</div>
+</body>
+<script src="pair.js"></script>
+</html>
